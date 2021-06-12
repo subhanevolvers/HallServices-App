@@ -57,7 +57,6 @@ ActiveRecord::Schema.define(version: 2021_05_20_184722) do
     t.string "unconfirmed_email"
     t.string "first_name"
     t.string "last_name"
-    t.string "profile_photo"
     t.string "email"
     t.string "phone_number"
     t.string "cnic"
