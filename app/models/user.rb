@@ -25,11 +25,9 @@ class User < ActiveRecord::Base
   private
 
   def strip_and_ensure_uid
-
     self.first_name.strip! if self.first_name.present?
     self.last_name.strip! if self.last_name.present?
     self.uid = email if email.present?
-
   end
 
 end

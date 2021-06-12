@@ -28,6 +28,8 @@ gem 'devise_token_auth', github: 'lynndylanhurley/devise_token_auth'
 
 gem 'bootstrap'
 
+gem 'rack-cors'
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
 
